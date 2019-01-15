@@ -3,3 +3,7 @@
 First steps with Django!
 
 **based on https://tutorial.djangogirls.org
+
+**app is deployed on PythonAnywhere:
+- https://radbart.pythonanywhere.com/
+- https://radbart.pythonanywhere.com/admin
