@@ -1,0 +1,62 @@
+VENV
+
+python -m venv myvenv
+
+myvenv\Scripts\activate
+
+
+INSTALACJA
+
+python3 -m pip install --upgrade pip
+
+pip install django
+
+/
+
+pip install -r requirements.txt (jeœli req file Django~=2.0.6)
+
+
+GIT
+
+git config --global user.name "Radek"
+
+git config --global user.email rrrr@rr.pl
+
+git clone git@github.com:rbartosinski/djangogirls_test.git
+
+git add .
+
+git commit -m "Djangogirls"
+
+git push
+
+
+
+DJANGO
+
+django-admin.exe startproject newproject .
+
+python manage.py runserver
+
+/
+
+python manage.py runserver 0:8000
+
+http://127.0.0.1:8000/
+
+python manage.py migrate
+
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+CSS - PA BASH:
+
+workon <your-pythonanywhere-username>.pythonanywhere.com
+
+(your-pythonanywhere-username.pythonanywhere.com)$ python manage.py collectstatic
